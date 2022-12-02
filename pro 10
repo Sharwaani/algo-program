@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+int r,area,volume;
+cout<<"enter the radius:";
+cin>>r;
+area = 3.14159 * r*r;
+cout<<"area="<< area<<endl;
+volume=(4*3.14*r*r*r)/3;
+cout<<"volume="<<volume<<endl;
+return 0;
+}
+
+
