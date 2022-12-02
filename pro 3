@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+{
+
+ 
+	float x,y; 
+   	cout << "Enter the width of a room in meters:";
+	cin>> x ;
+	cout<<"Enter the length of a room in meters:";
+	cin>> y ;
+	cout<< "Area of the room in meters:";
+	cout<< ( x * y ) << "meters"<< endl;
+}
+
+
+
+return 0;	
+}
