@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+{
+	float x,y,a;
+	cout<<"enter the value of x(one litre or less):";
+	cin>>x;
+	cout<<"enter the value of y(more than one litre):";
+	cin>>y;
+	cout<<"enter the refund amount:";
+	a=(x*0.10)+(y*0.25);
+	cout<<a<<"$";
+	
+	
+	
+}
+return 0;
+}
+
