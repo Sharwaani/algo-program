@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+float m,tax,tip,total;
+cout<<"enter the price if the meal:";
+cin>>m;
+tax = (18/m)*100;
+tip = (5/m)*100;
+cout<<"enter the grand total:";	
+total= m + tax + tip;
+cout<<total;
+return 0;
+}
