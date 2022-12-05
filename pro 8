@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+float a,a1,a2,a3;
+cout<<"Enter the amount deposited by user:"	;
+cin>>a;
+cout<<"the amount in account after 1 year: \n";
+a1 = a + (4/a)*100;
+cout<<a1<<endl;
+cout<<"the amount in account after 2 years: \n";
+a2 = a + (8/a)*100;
+cout<<a2<<endl;
+cout<<"the amount in account after 3 years: \n";
+a3 = a + (12/a)*100;
+cout<<a3<<endl;
+return 0;
+}
+
