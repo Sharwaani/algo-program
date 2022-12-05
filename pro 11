@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+float vi,vf,a,d,h,x;
+cout<<"enter the height in meters:";
+cin>>h;
+cout<<"enter the value of vi:";
+cin>>vi;
+cout<<"enter the value of a:";
+cin>>a;
+cout<<"enter the value of d:";
+cin>>d;
+cout<<"the final speed vf:";
+x= vi*vi + 2*a*d;
+vf = sqrt(x);
+cout<<vf;
+return 0;
+}
+	
